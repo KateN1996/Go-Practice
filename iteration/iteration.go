@@ -2,8 +2,6 @@ package iteration
 
 import "strings"
 
-const repeatCount = 5
-
 func Repeat(char string, num int) string {
 
 	var repeated strings.Builder
